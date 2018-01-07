@@ -1,0 +1,40 @@
+/***********************************************************************************************/
+/* Custom Styles */
+/***********************************************************************************************/
+body {
+  padding-top: 5em;
+}
+.c-cta {
+  margin: 2em 0;
+}
+#testimonials {
+  position: relative;
+}
+#testimonials .carousel-indicators {
+  top: -30px;
+}
+#testimonials .carousel-indicators li {
+  background-color: #ccc;
+}
+#testimonials .carousel-indicators li.active {
+  background-color: black;
+}
+.c-product-showcase {
+  margin-bottom: 2em;
+}
+.c-product-showcase .span4 {
+  margin-bottom: 2em;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .c-product-cta .btn-group {
+    float: none;
+  }
+  .c-product-cta .span6 {
+    margin-bottom: 2em;
+  }
+}

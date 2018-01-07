@@ -1,0 +1,52 @@
+/***********************************************************************************************/
+/* Custom Styles */
+/***********************************************************************************************/
+body {
+	padding-top: 5em;
+}
+
+.c-cta {
+	margin: 2em 0;
+}
+
+#testimonials {
+	position: relative;
+	
+	.carousel-indicators {
+		top: -30px;
+	
+		li {
+			background-color: #ccc;
+			
+			&.active {
+				background-color: black;
+			}
+		}
+	}
+}
+
+.c-product-showcase {
+	margin-bottom: 2em;
+	
+	.span4 {
+		margin-bottom: 2em;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		padding-top: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.c-product-cta {
+		.btn-group {
+			float: none;
+		}
+		
+		.span6 {
+			margin-bottom: 2em;
+		}
+	}
+}
